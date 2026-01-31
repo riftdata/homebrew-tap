@@ -1,20 +1,20 @@
-# pgbranch Homebrew Tap
+# RiftDB Homebrew Tap
 
-Homebrew formulae for [pgbranch](https://github.com/pgbranch/pgbranch).
+Homebrew formulae for [rift](https://github.com/riftdb/rift).
 
 ## Installation
 ```bash
-brew tap pgbranch/tap
-brew install pgbranch
+brew tap riftdb/tap
+brew install rift
 ```
 
 ## Update
 ```bash
-brew upgrade pgbranch
+brew upgrade rift
 ```
 
 ## Uninstall
 ```bash
-brew uninstall pgbranch
-brew untap pgbranch/tap
+brew uninstall rift
+brew untap riftdb/tap
 ```
