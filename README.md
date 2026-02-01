@@ -1,6 +1,6 @@
 # RiftDB Homebrew Tap
 
-Homebrew formulae for [rift](https://github.com/riftdb/rift).
+Homebrew formulae for [rift](https://github.com/riftdata/rift).
 
 ## Installation
 ```bash
