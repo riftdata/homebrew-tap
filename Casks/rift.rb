@@ -3,7 +3,7 @@ cask "rift" do
   name "rift"
   desc "Instant, copy-on-write database branches for Postgres"
   homepage "https://riftdata.io"
-  version "0.0.36"
+  version "0.0.361"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "rift" do
   on_macos do
     on_intel do
       url "https://github.com/riftdata/rift/releases/download/v#{version}/rift_#{version}_darwin_amd64.tar.gz"
-      sha256 "7372eb5b762b947e4c02ad6c46d95ff666e58682ded5c774924ecb6e8742552a"
+      sha256 "b076dcc9c0d181e863222c640532c715e87053fc968afcbdb62a830f3f165f60"
     end
     on_arm do
       url "https://github.com/riftdata/rift/releases/download/v#{version}/rift_#{version}_darwin_arm64.tar.gz"
-      sha256 "0fd64a1b576b42a659665cfe1e768b9945a77bea08eb83347eaf6cad0d282b80"
+      sha256 "923711e3591ecac72f5b3ff9e99a2c55d6344cbb48a979c3c5a9cebacbe0d4dc"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/riftdata/rift/releases/download/v#{version}/rift_#{version}_linux_amd64.tar.gz"
-      sha256 "f20ca2ae4762ee2ff8670e0f4fe18e5dcc7c7f52897603a045b7b23db521bb9b"
+      sha256 "db83d58225409102430681d4f9833f51f133be599935abf346f123867fdba98e"
     end
     on_arm do
       url "https://github.com/riftdata/rift/releases/download/v#{version}/rift_#{version}_linux_arm64.tar.gz"
-      sha256 "d794920ab54db2e0f2f959adee88b1f27d3bcf8d2e61f4fa365c5d83ab43f457"
+      sha256 "56a4b143754afb76f72b37256268b5e909e5e736cd16a45c63590bd0be316174"
     end
   end
 
